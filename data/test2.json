@@ -1,0 +1,25 @@
+{
+  "title": "Тест 2: Основы HTML и CSS",
+  "questions": [
+    {"text": "Что означает HTML?", "options": {"a": "Hyperlinks Text Markup Language", "b": "HyperText Markup Language", "c": "Home Tool Markup Language"}, "correct": "b"},
+    {"text": "Какой тег используется для заголовка первого уровня?", "options": {"a": "<head>", "b": "<title>", "c": "<h1>"}, "correct": "c"},
+    {"text": "Какой атрибут указывает ссылку на внешний CSS?", "options": {"a": "src", "b": "href", "c": "link"}, "correct": "b"},
+    {"text": "Как задать цвет текста в CSS?", "options": {"a": "text-color", "b": "fontcolor", "c": "color"}, "correct": "c"},
+    {"text": "Какой тег используется для создания списка с маркерами?", "options": {"a": "<ul>", "b": "<ol>", "c": "<li>"}, "correct": "a"},
+    {"text": "Что делает свойство `margin`?", "options": {"a": "Задаёт фон", "b": "Внешний отступ", "c": "Размер шрифта"}, "correct": "b"},
+    {"text": "Что делает тег `<a>`?", "options": {"a": "Картинка", "b": "Ссылка", "c": "Абзац"}, "correct": "b"},
+    {"text": "Как сделать жирный текст?", "options": {"a": "<b>", "b": "<strong>", "c": "оба варианта"}, "correct": "c"},
+    {"text": "Какой файл подключает стили?", "options": {"a": "script.js", "b": "style.css", "c": "index.html"}, "correct": "b"},
+    {"text": "Что делает свойство `padding`?", "options": {"a": "Внутренний отступ", "b": "Внешний отступ", "c": "Межстрочный интервал"}, "correct": "a"},
+    {"text": "Как задать фон элементу?", "options": {"a": "background-color", "b": "color", "c": "font-color"}, "correct": "a"},
+    {"text": "Что делает тег `<img>`?", "options": {"a": "Отображает изображение", "b": "Создаёт ссылку", "c": "Добавляет кнопку"}, "correct": "a"},
+    {"text": "Как обозначить комментарий в HTML?", "options": {"a": "//", "b": "<!-- -->", "c": "#"}, "correct": "b"},
+    {"text": "Как задать шрифт в CSS?", "options": {"a": "font", "b": "font-size", "c": "font-family"}, "correct": "c"},
+    {"text": "Что делает тег `<br>`?", "options": {"a": "Создаёт отступ", "b": "Разделяет строки", "c": "Выделяет текст"}, "correct": "b"},
+    {"text": "Как задать рамку?", "options": {"a": "border", "b": "outline", "c": "frame"}, "correct": "a"},
+    {"text": "Что делает `display: none;`?", "options": {"a": "Скрывает элемент", "b": "Удаляет элемент", "c": "Делает элемент прозрачным"}, "correct": "a"},
+    {"text": "Как задать курсив?", "options": {"a": "<i>", "b": "<em>", "c": "оба варианта"}, "correct": "c"},
+    {"text": "Как задать центрирование?", "options": {"a": "text-align: center;", "b": "align: center;", "c": "center: true;"}, "correct": "a"},
+    {"text": "Что делает `<div>`?", "options": {"a": "Выводит текст", "b": "Создаёт контейнер", "c": "Добавляет таблицу"}, "correct": "b"}
+  ]
+}

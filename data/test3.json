@@ -1,0 +1,25 @@
+{
+  "title": "Тест 3: Telegram Bot API",
+  "questions": [
+    {"text": "Что такое Telegram Bot API?", "options": {"a": "Язык программирования", "b": "Интерфейс для создания ботов", "c": "Игровой движок"}, "correct": "b"},
+    {"text": "Как начинается токен бота?", "options": {"a": "bot_", "b": "TG-", "c": "Никак"}, "correct": "a"},
+    {"text": "Какой метод отправляет сообщение?", "options": {"a": "sendMessage", "b": "sendText", "c": "write"}, "correct": "a"},
+    {"text": "Какой метод получает обновления?", "options": {"a": "getUpdates", "b": "watch", "c": "poll"}, "correct": "a"},
+    {"text": "Какой объект представляет сообщение?", "options": {"a": "message", "b": "text", "c": "update"}, "correct": "a"},
+    {"text": "Какой параметр указывает ID чата?", "options": {"a": "user_id", "b": "chat_id", "c": "from_id"}, "correct": "b"},
+    {"text": "Что такое webhook?", "options": {"a": "Параметр", "b": "Серверный обратный вызов", "c": "Кнопка"}, "correct": "b"},
+    {"text": "Какой тип кнопки запускает WebApp?", "options": {"a": "url", "b": "callback", "c": "web_app"}, "correct": "c"},
+    {"text": "Какой метод редактирует сообщение?", "options": {"a": "editMessageText", "b": "changeText", "c": "updateMessage"}, "correct": "a"},
+    {"text": "Какой метод отвечает за клавиатуру?", "options": {"a": "setKeyboard", "b": "reply_markup", "c": "inline_markup"}, "correct": "b"},
+    {"text": "Какой тип запускает WebApp?", "options": {"a": "inline_web", "b": "web_app", "c": "url"}, "correct": "b"},
+    {"text": "Какую библиотеку используем в Python?", "options": {"a": "pyTelegram", "b": "python-bot", "c": "python-telegram-bot"}, "correct": "c"},
+    {"text": "Как получить текст сообщения?", "options": {"a": "msg.text", "b": "message.text", "c": "update.message.text"}, "correct": "c"},
+    {"text": "Какой update приходит от inline кнопок?", "options": {"a": "message", "b": "callback_query", "c": "inline_update"}, "correct": "b"},
+    {"text": "Как указать WebApp-ссылку?", "options": {"a": "web_app=...", "b": "link=...", "c": "launch=..."}, "correct": "a"},
+    {"text": "Какой порт используют WebApp-серверы?", "options": {"a": "443", "b": "80", "c": "8000"}, "correct": "c"},
+    {"text": "Что обязательно в WebApp?", "options": {"a": "Telegram.WebApp.ready()", "b": "print('Hello')", "c": "token"}, "correct": "a"},
+    {"text": "Где хостится WebApp?", "options": {"a": "В Telegram", "b": "На твоём сервере", "c": "На BotFather"}, "correct": "b"},
+    {"text": "Какой метод отправляет файл?", "options": {"a": "sendFile", "b": "sendDocument", "c": "upload"}, "correct": "b"},
+    {"text": "Как закрыть WebApp?", "options": {"a": "Telegram.WebApp.close()", "b": "window.close()", "c": "bot.exit()"}, "correct": "a"}
+  ]
+}

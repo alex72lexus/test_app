@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f2f9ff;
+  color: #202c33;
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-size: 22px;
+  margin: 16px 12px;
+  color: #0088cc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #0088cc;
+  color: white;
+  padding: 16px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  display: block;
+  margin: 16px auto;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #007ab8;
+}
+
+form {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  margin: 16px auto;
+  width: 92%;
+  max-width: 500px;
+  text-align: left;
+}
+
+p {
+  font-weight: 600;
+  font-size: 17px;
+  margin: 20px 0 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 16px;
+  padding-left: 4px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 12px;
+  transform: scale(1.4);
+  vertical-align: middle;
+  accent-color: #0088cc;
+}
+
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 17px;
+    padding: 14px 18px;
+  }
+
+  form {
+    padding: 16px;
+  }
+
+  p, label {
+    font-size: 15.5px;
+  }
+
+  input[type="radio"] {
+    transform: scale(1.3);
+  }
+}

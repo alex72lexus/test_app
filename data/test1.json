@@ -1,0 +1,25 @@
+{
+  "title": "Тест 1: Основы Python",
+  "questions": [
+    {"text": "Что делает функция print()?", "options": {"a": "Считает", "b": "Выводит на экран", "c": "Удаляет файл"}, "correct": "b"},
+    {"text": "Какой тип у значения 3.14?", "options": {"a": "int", "b": "str", "c": "float"}, "correct": "c"},
+    {"text": "Какой символ используется для комментария?", "options": {"a": "#", "b": "//", "c": "--"}, "correct": "a"},
+    {"text": "Как объявить переменную?", "options": {"a": "var x = 5", "b": "x = 5", "c": "let x = 5"}, "correct": "b"},
+    {"text": "Как получить длину списка?", "options": {"a": "size(list)", "b": "length(list)", "c": "len(list)"}, "correct": "c"},
+    {"text": "Как создать список?", "options": {"a": "[1, 2, 3]", "b": "{1, 2, 3}", "c": "(1, 2, 3)"}, "correct": "a"},
+    {"text": "Какой результат выражения 2 ** 3?", "options": {"a": "6", "b": "8", "c": "9"}, "correct": "b"},
+    {"text": "Какой тип данных у 'True'?", "options": {"a": "bool", "b": "str", "c": "int"}, "correct": "b"},
+    {"text": "Что делает оператор `in`?", "options": {"a": "Присваивает", "b": "Сравнивает", "c": "Проверяет наличие"}, "correct": "c"},
+    {"text": "Как создать пустой словарь?", "options": {"a": "[]", "b": "{}", "c": "dict()"}, "correct": "c"},
+    {"text": "Как вызвать функцию?", "options": {"a": "function", "b": "function()", "c": "call function"}, "correct": "b"},
+    {"text": "Какой результат: len('abc')?", "options": {"a": "2", "b": "3", "c": "4"}, "correct": "b"},
+    {"text": "Какой тип данных у 42?", "options": {"a": "str", "b": "int", "c": "float"}, "correct": "b"},
+    {"text": "Что делает `range(5)`?", "options": {"a": "Возвращает список", "b": "Возвращает диапазон", "c": "Ошибка"}, "correct": "b"},
+    {"text": "Какой оператор логического И?", "options": {"a": "&", "b": "and", "c": "&&"}, "correct": "b"},
+    {"text": "Какой результат: 'a' + 'b'?", "options": {"a": "ab", "b": "a b", "c": "Ошибка"}, "correct": "a"},
+    {"text": "Как преобразовать строку в число?", "options": {"a": "int()", "b": "str()", "c": "float()"}, "correct": "a"},
+    {"text": "Что делает метод `.append()`?", "options": {"a": "Удаляет", "b": "Добавляет", "c": "Очищает"}, "correct": "b"},
+    {"text": "Что возвращает input()?", "options": {"a": "int", "b": "str", "c": "bool"}, "correct": "b"},
+    {"text": "Как проверить равенство?", "options": {"a": "==", "b": "=", "c": "==="}, "correct": "a"}
+  ]
+}
