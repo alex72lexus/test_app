@@ -6,7 +6,7 @@ from aiogram.client.default import DefaultBotProperties
 import asyncio
 import os
 
-TOKEN = os.getenv("BOT_TOKEN", "8004998569:AAGiu1QWQBtrsWY3aIHYrvjjkRlk_d0_kOE")gi
+TOKEN = os.getenv("BOT_TOKEN", "BOT TOKEN СЮДА")
 
 bot = Bot(
     token=TOKEN,
